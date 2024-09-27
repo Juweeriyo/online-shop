@@ -1,0 +1,157 @@
+body {
+    background: #f4f4f4;
+    font-family: 1.5/15 Arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+header{
+    background-color: #000000;
+    color: #f4f4f4;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+   
+.left-section .logo {
+    float: left;
+   margin-top: 5px;
+   
+}
+.midel-section{
+    position: absolute;
+    
+}
+
+header form input[type=text]{
+    width: 800px;
+    padding: 10px;
+    margin-top: 5px;
+    width: o;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    left: 100px;
+}
+.midel-section button{
+    margin: 0px;
+    width: 45px;
+    height: 39px;
+    padding: 0 ;
+ background-color: #f4f4f4;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: relative;
+    top: 10px;
+    left: 95px;
+  
+    
+}
+header .right-section {
+    float: right;
+    margin-top: 5px;
+    display: flex;
+   position: absolute;
+}
+
+
+.right-section nav a{
+text-decoration: none;
+color: #f4f4f4;
+position: relative;
+left:1000px;
+
+
+}
+.right-section .bag-logo{
+    position: relative;
+    left: 1020px;
+}
+span{
+    font-size: larger;
+}
+.products-grid{
+display: grid;
+   grid-template-columns: repeat(5,1fr);
+ gap: 10px;
+ border: 1px dashed gold;
+ background-color: white;
+
+}
+.product-container{
+    padding: 10px;
+    text-align: center;
+   
+    grid-row: 4px;
+grid-column: 4PX;
+}
+/* .products-grid .product-container{
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+  
+} */
+
+
+
+/* .boxes{
+    margin-top: 15px;
+}
+.boxes .box{
+    width: 300px;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    float: left;
+    padding: 10px;
+} */
+/* .box1{
+width: 300px;
+height: 500px;
+border: none;
+border-radius: 15px;
+background-color: yellowgreen;
+top: 15px;
+left: 15px;
+
+}
+.box2{
+    width: 300px;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    top: 15px;
+    left: 15px;
+ 
+}
+.box3{
+    width: 300px;
+height: 500px;
+border: none;
+border-radius: 15px;
+background-color: yellowgreen;
+top: 15px;
+left: 15px;
+
+} */
+
